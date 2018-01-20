@@ -1,0 +1,15 @@
+# ignore vim swp file
+*.swp
+
+# dont soak up your openstack creds
+*.openrc
+*openrc.sh
+
+# dont soak up your terraform state
+*.tfstate
+*.tfstate.backup
+*.terraform
+
+# ignore your tfvars as they might be sensitive, but remember the example
+*.tfvars
+!example.tfvars
